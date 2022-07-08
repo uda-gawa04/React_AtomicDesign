@@ -7,7 +7,7 @@ export const DefaultLayout = (props) => {
     <>
       <Header />
       {children}
-      <Footer />{" "}
+      <Footer />
     </>
   );
 };

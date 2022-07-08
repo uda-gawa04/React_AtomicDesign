@@ -10,6 +10,6 @@ const SFooter = styled.header`
   text-align: center;
   padding: 8px 0;
   position: fixed;
-  bottom: o;
+  bottom: 0;
   width: 100%;
 `;
