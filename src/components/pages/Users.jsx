@@ -18,16 +18,13 @@ const users = [...Array(10).keys()].map((val) => {
 });
 
 export const Users = () => {
-  const { state } = useLocation();
-  const isAdmin = state ? state.isAdmin : false;
-
   return (
     <SContainer>
       <h2>ALL Users</h2>
       <SerchInput />
       <SUserArea>
         {users.map((obj) => (
-          <UserCard key={obj.id} user={obj} isAdmin={isAdmin} />
+          <UserCard key={obj.id} user={obj} />
         ))}
       </SUserArea>
     </SContainer>
