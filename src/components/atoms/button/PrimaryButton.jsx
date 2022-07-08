@@ -9,5 +9,5 @@ export const PrimaryButton = (props) => {
 
 // 既存のcssを上書きすることでアレンジして使用する
 const SButton = styled(BaseButton)`
-  background-color: #eee;
+  background-color: #29da8a;
 `;
